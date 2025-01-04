@@ -1,0 +1,215 @@
+/* Modal Styles */
+.modal-content{
+  margin-top: 246px;
+}
+.main-journal .modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: none;
+}
+
+.main-journal .modal-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.main-journal .modal-body {
+  /* padding: 2rem; */
+  /* background-color: #f9f9f9;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  border-radius: 25px;
+}
+
+.main-journal .customer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.customer-info{
+  /* width: 716px; */
+  height: 431px;
+  top: 316px;
+  left: 640px;
+  gap: 0px;
+  border-radius: 25px;
+  /* opacity: 0px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+  
+}
+.main-journal .modal-body
+
+
+.modal-body{
+ 
+  border-radius: 25px;
+}
+.main-journal .info-row {
+  height: 402px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px;
+  /* opacity: 0px; */
+  color: #6F6F6F;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28.64px;
+  text-align: left;
+  border-bottom: 3px solid #BBB0A4;
+  padding: 0px 30px 0px 25px;
+}
+
+.main-journal .info-row span:first-child {
+  color: #7d7d7d;
+}
+
+.main-journal .modal-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  border-top: none;
+}
+
+.main-journal .modal-footer button {
+  width: 32%;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  border-radius: 50px;
+  border: none;
+}
+
+.main-journal button.secondary {
+  background-color: #c5b9a7;
+  color: white;
+}
+
+.main-journal button.primary {
+  background-color: #a69e91;
+  color: white;
+}
+
+.main-journal button.danger {
+  background-color: #d9534f;
+  color: white;
+}
+
+/* Close button overrides */
+.main-journal .modal-header .btn-close {
+  background: none;
+  border: none;
+}
+
+.first-name {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 32.55px;
+  text-align: left;
+}
+
+.phone-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.phone-prefix {
+  position: absolute;
+  left: 10px; /* Adjust to control the distance from the left */
+  color: #0f0f0f; /* Optional styling for the prefix */
+  pointer-events: none; /* Ensure the +45 part is not clickable/editable */
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28.64px;
+  /* text-align: left; */
+}
+
+.phone-input {
+  padding-left: 20px; /* Adjust padding to make space for the +45 prefix */
+}
+
+/* Increase the placeholder size */
+
+.form-control::placeholder {
+font-size: 22px;
+font-weight: 400;
+line-height: 28.64px;
+text-align: left;
+color: #6F6F6F;
+margin-left: 28px;
+
+
+
+}
+
+.phone-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.phone-prefix {
+  margin-right: 22px; /* Adjust this value to control space between prefix and input */
+}
+
+.phone-input {
+  padding-left: 60px; /* Adjust padding for space between the prefix and the placeholder */
+}
+
+/* Increase the placeholder size */
+.phone-input::placeholder {
+  color:  #6F6F6F;
+  ; /* Set placeholder color if needed */
+  opacity: 1; /* Ensure full opacity */
+}
+
+.add-coustmer {
+  border-radius: 49px;
+  background-color: #BBB0A4;
+  color: #ffffff;
+  border: none;
+  align-self: center;
+  margin-bottom: 20px;
+  padding: 14px 84px;
+  /* margin-top: 27px; */
+  width: 60%;
+  height: 60px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28.64px;
+}
+
+.deleat-coustmer {
+  border-radius: 49px;
+  background: #C74141;
+  color: #ffffff;
+  border: none;
+  align-self: center;
+  /* margin-bottom: 20px; */
+  padding: 14px 84px;
+  /* margin-top: 27px; */
+  /* width: 545px; */
+  width: 60%;
+  height: 60px;
+
+font-size: 22px;
+font-weight: 700;
+line-height: 28.64px;
+
+
+}
+
+.coustmer-details-main{
+
+width: 277px;
+height: 46px;
+top: 221px;
+left: 859px;
+gap: 0px;
+/* opacity: 0px; */
+text-align: center;
+color: #6F6F6F;
+
+
+}

@@ -1,0 +1,161 @@
+
+  
+  .status {
+    font-weight: bold;
+  }
+  
+  .status.pending {
+    color: #E19957;
+  }
+/*   
+  .status.cancelled,
+  .status["cancelled by customer"] {
+    color: #C74141;
+  }
+  
+  .status.completed {
+    color: #367B3D;
+  }
+  
+  .status["absence from booking"] {
+    color: #A36437;
+  }
+  
+  .status["cancellation offer accepted"] {
+    color: #447BCD;
+  }
+   */
+
+   .status.cancelled,
+.status[data-status="cancelled by customer"] {
+  color: #C74141;
+}
+
+.status.completed {
+  color: #367B3D;
+}
+
+/* .text-4{
+  text-align: center;
+} */
+.status.rescheduled{
+  color: #367B3D;
+}
+.status[data-status="absence from booking"] {
+  color: #A36437;
+}
+
+.status[data-status="cancellation offer accepted"] {
+  color: #447BCD;
+}
+
+  .action-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .modal-button {
+    width: 100%;
+    padding: 11px;
+    /* border: none; */
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #333;
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 11px;
+    font-size: 19px;
+    border: 1px solid #A79C92;
+font-size: 24px;
+font-weight: 700;
+
+}
+
+.modal-footer {
+  margin-top: 2rem;
+}
+  
+  .modal-button:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .modal-button:active {
+    background-color: #d9d9d9;
+    color: #000;
+  }
+  
+
+  .details {
+    padding: 0px;
+    font-size: 16px;
+    color: #333;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 25px;
+    border: 1px solid #A79C92;
+    
+}
+.details p {
+  border-bottom:1px solid #35717B26;
+  padding: 17px 29px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 900;
+  margin: 0;
+}
+.details p strong, b {
+  font-weight: 100;
+}
+.modal-title {
+ 
+  margin-left: 103px;
+}
+
+
+@media (min-width: 1900px)  {
+  .modal-body {
+      width: 85% !important;
+  }
+}
+
+/* Confirm Delete Modal - Scoped to .confirm-form */
+.confirm-form .modal-title-centered {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+.confirm-form .modal-confirmation-text {
+  text-align: center;
+  /* margin-bottom: 20px; */
+  font-size: 16px;
+  color: #333;
+}
+
+/* Common button style for confirmation modal */
+.confirm-form .modal-button {
+  /* padding: 10px 20px; */
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Yes button style */
+.confirm-form .modal-button-yes {
+  background-color: #dc3545; /* Red */
+}
+
+/* No button style */
+.confirm-form .modal-button-no {
+  background-color: #6c757d; /* Grey */
+}
+
+.text-center{
+  margin-top: 0px !important;
+}

@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .calendar-container {
+    display: grid;
+    grid-template-columns: 100px repeat(4, 1fr); /* Time column + staff columns */
+    gap: 1px;
+    background-color: #e0e0e0;
+  }
+  
+  .calendar-header {
+    display: contents;
+  }
+  
+  .header-item {
+    background-color: #f8f8f8;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .time-slot-header {
+    background-color: #fff;
+  }
+  
+  .calendar-row {
+    display: contents;
+  }
+  
+  .time-slot {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px 10px;
+    font-weight: bold;
+    border-right: 1px solid #ddd;
+  }
+  
+  .event {
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .event-orange {
+    background-color: #f39c12;
+  }
+  
+  .event-green {
+    background-color: #27ae60;
+  }
+  
+  .event-brown {
+    background-color: #7f8c8d;
+  }
+  
+  .event-red {
+    background-color: #e74c3c;
+  }
+  

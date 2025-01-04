@@ -1,0 +1,569 @@
+.mainEmploye-table {
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 13px;
+  margin-top: 51px;
+  /* max-width: 1744px; */
+}
+
+/* .add-employee-mainform{
+  height: 1016px;
+} */
+
+@media (min-width: 1900px) {
+  .mainEmploye-table {
+  
+    max-width: 1744px ;
+  }
+  
+}
+
+
+.main-heading {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 45.57px;
+  text-align: left;
+  color: #545454;
+  padding: 0 0 0 60px;
+}
+
+.display-flex.row {
+  align-items: center;
+  border-bottom: 2px solid #BBB0A4;
+  height: 128px;
+}
+
+.margin-1.container {
+  margin-top: 93px !important;
+  /* padding: 0 112px; */
+  max-width: 1520px;
+
+}
+
+.pl-5.pr-5.container {  
+  max-width: 1520px;
+}
+/* .table tbody tr,
+.table tbody td {
+  background-color: #F6F6F6;
+  color: #000;
+  border: none;
+  vertical-align: middle;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 32.55px;
+} */
+.table tbody tr, .table tbody td {
+  background-color: #F6F6F6;
+  color: #000;
+  border: none;
+  vertical-align: middle;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 32.55px;
+}
+.employee-table thead th {
+  position: sticky; /* Make the header sticky */
+  top: 0; /* Stick to the top */
+  z-index: 1; /* Ensure it stays on top */
+  background-color: #bbb0a4; /* Background color for the header */
+  color: #ffffff; /* Text color for the header */
+  border: none;
+}
+
+.Opret-medarbejder {
+  background-color: #bbb0a4;
+  border: 1px solid #a19d99;
+  border-radius: 50px;
+  margin-top: 3px;
+  padding: 17px 30px;
+  font-size: 20px;
+  color: #ffff;
+}
+
+img.profile-img {
+  border-radius: 20px;
+  /* margin: none; */
+}
+
+span.profile-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: #545454;
+}
+
+.Opret-medarbejder:hover {
+  background-color: #a17756; /* Button hover color */
+  color: #000;
+}
+
+.btn-warning {
+  background-color: #ffcd38; /* Warning button color */
+}
+
+.btn-danger {
+  background-color: #f44336; /* Danger button color */
+}
+
+.action-button {
+  background: none;
+  border: none;
+  margin-right: 26px;
+  height: 38px;
+  border-radius: 50%;
+  width: 38px;
+  background: #ffff;
+}
+
+.action-button:hover {
+  background: none;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  margin-bottom: 20px;
+  /* width: 36px; */
+}
+
+.close-button:hover {
+  background: none;
+  border: none;
+}
+
+.modal-title {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 45.57px;
+  text-align: left;
+  color: #6f6f6f;
+  font-family: "DM Sans", sans-serif; /* Use the correct font-family syntax */
+}
+
+.form-label {
+  color: #6f6f6f;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.form-control {
+  border: 3px solid #bbb0a4;
+  height: 50px;
+  border-radius: 12px;
+}
+.modal-body {
+  width: 85%;
+  padding: 0 23px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.form-check-label {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31.25px;
+  text-align: left;
+  color: #6f6f6f;
+}
+
+.form-check {
+  display: block;
+  min-height: 0.5rem;
+  padding-left: 1.5em;
+  margin-bottom: .125rem;
+  margin-top: 25px;
+}
+button.upload-button.btn.btn-secondary {
+  background: #6F6F6F33;
+  color: #BBB0A4;
+  padding: 11px 42px;
+}
+.form-check-input {
+  height: 22px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.modal-dialog {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 71vh;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-content {
+  border-radius: 25px;
+}
+
+.image-upload-container {
+  border: 2px dashed #ccc; /* Dashed border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 20px; /* Padding inside the container */
+  text-align: center; /* Center text */
+  cursor: pointer; /* Cursor to indicate clickable area */
+  margin-top: 10px; /* Margin at the top */
+}
+
+.image-upload-label {
+  display: flex; /* Flexbox for alignment */
+  flex-direction: column; /* Vertical alignment */
+  align-items: center; /* Center items horizontally */
+  color: #7d7d7d; /* Label color */
+  font-size: 16px; /* Font size */
+  margin-bottom: 10px; /* Space below the label */
+}
+.modal-content label.form-label {
+  margin-top: 23px;
+}
+.image-upload-icon {
+  font-size: 40px; /* Size of the upload icon */
+  margin-bottom: 10px; /* Space below the icon */
+}
+
+.upload-button {
+  display: block; /* Block display for button */
+  margin: 0 auto; /* Center button */
+  padding: 8px 20px; /* Button padding */
+  border-radius: 12px;
+  border: none;
+  color: #BBB0A4;
+  background-color: #6F6F6F33;
+}
+
+.add-employee {
+  border-radius: 49px;
+  background-color: #BBB0A4;
+  color: #ffffff;
+  
+  border: none;
+  align-self: center;
+  margin-bottom: 57px;
+font-size: 24px;
+  padding: 14px 84px;
+  margin-top: 27px;
+}
+.add-employee:hover {
+  background-color: #A19D99; /* Custom hover background color */
+  border-color: #A19D99; /* Custom hover border color */
+  color: #fff; /* Text color on hover */
+}
+
+.add-employee:focus,
+.add-employee:active {
+  background-color: #A19D99; /* Custom background color on click */
+  border-color: #A19D99; /* Custom border color on click */
+  color: #fff; /* Text color on click */
+  box-shadow: none; /* Remove default Bootstrap focus shadow */
+}
+
+
+.employee-table {
+  background-color: #ffffff;
+  border-radius: 25px;
+  border-collapse: collapse; /* Ensures borders collapse properly */
+  overflow-x: hidden; /* Ensures responsiveness */
+  table-layout: fixed; 
+}
+
+.employee-table thead, .employee-table tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed; 
+  border-bottom: 2px solid #BBB0A4;/* Fix the layout for proper alignment */
+}
+
+.employee-table tbody td {
+  padding: 10px; /* Adjust padding for better readability */
+  vertical-align: middle; /* Center align the text */
+  background-color: #f6f6f6; /* Background color for the cells */
+  color: #545454; /* Text color for the cells */
+  border: none; /* Remove borders */
+}
+
+.employee-table tbody td .first-name{
+  margin-left: 30px;
+}
+
+
+
+
+/* Remove left and right border for table rows */
+.employee-table tbody tr td:first-child {
+  border: none;
+}
+
+.employee-table tbody tr td:last-child {
+  border: none;
+}
+
+.employee-table tbody {
+  display: block; /* Block display allows scrolling */
+  /* max-height: 953px; 
+  overflow-y: auto; Enable vertical scrolling */
+}
+
+
+
+button.action-button.btn.btn-primary {
+  height: 38px;
+  width: 38px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+/* Custom Scrollbar Styles */
+.employee-table {
+  margin-bottom: 50px;
+  border-radius: 0px;
+  overflow: hidden; /* Prevent overflow on the table itself */
+}
+
+.table{
+  margin-bottom: 0px;
+}
+
+/* .table-container {
+  max-height: 914px;
+  overflow-y: auto;
+
+} */
+
+
+/* 
+.table-container::-webkit-scrollbar {
+  width: 15px;
+
+}
+
+
+.table-container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+
+  margin-top: 21px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background: #bbb0a4;
+  border-radius: 10px;
+}
+
+
+.table-container::-webkit-scrollbar-thumb:hover {
+  background: #a29b8b; 
+} */
+
+
+
+/* Table header styling */
+.employee-table thead th {
+  position: sticky;
+  top: 0;
+  background-color: #bbb0a4;
+  z-index: 2;
+  text-align: left;
+  padding: 10px;
+  font-size: 19px;
+}
+
+.employee-Header thead th {
+  position: sticky; /* Make the table header sticky */
+  top: 0; /* Stick the header to the top */
+  background-color: #bbb0a4; /* Header background color */
+  z-index: 2; /* Ensure it stays above the scrolling body */
+  text-align: left;
+  padding: 14px; /* Adjust padding for better look */
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+
+/* Optional: Table body styling */
+.employee-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Alternate row colors */
+}
+
+.employee-table tbody tr:hover {
+  background-color: #e0d9d3; /* Highlight row on hover */
+}
+
+
+.table-responsive{
+  border-radius: 25px;
+}
+
+
+/* @media (max-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      max-width: 1744px;
+  }
+} */
+
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  /* overflow: hidden; */
+  height: 51vh;
+}
+
+.employee-table thead {
+  position: sticky; /* Make header sticky */
+  top: 0; /* Stick to the top */
+  background-color: white; /* Background color of the header */
+  z-index: 1; /* Ensure header is above the table body */
+}
+.employee-table tbody {
+  display: block;
+  overflow-y: auto;
+  width: 100%;
+  max-height: 40vh ;
+}
+@media (min-width: 1200px) {
+  .employee-table tbody {
+    max-height: 45vh 
+  }
+  .margin-1.container {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+    /* padding: 0 112px; */
+    max-width: 1520px;
+}
+}
+@media (min-width: 1300px) {
+  .employee-table tbody {
+    max-height: 50vh 
+  }
+}
+/* Responsive adjustments for different screen sizes */
+@media (min-width: 1500px) {
+  .employee-table tbody {
+      max-height: 56vh ;
+  }
+}
+
+/* @media (min-width: 1700px) {
+  .employee-table tbody {
+      max-height: 40vh;
+  }
+} */
+
+@media (min-width: 1900px) {
+  .employee-table tbody {
+      max-height: 62vh;
+  }
+  .table tbody tr,
+.table tbody td {
+  background-color: #F6F6F6;
+  color: #000;
+  border: none;
+  vertical-align: middle;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 32.55px;
+}
+
+.employee-table thead th {
+  position: sticky;
+  top: 0;
+  background-color: #bbb0a4;
+  z-index: 2;
+  text-align: left;
+  padding: 10px;
+  font-size: 24px;
+}
+
+}
+
+.employee-table tr {
+  display: table; /* Reset display for table rows */
+  width: 100%; /* Ensure rows take full width */
+  table-layout: fixed; /* Ensures that the table layout does not change */
+}
+/* Custom scrollbar styles for WebKit browsers (Chrome, Safari) */
+.employee-table tbody::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+  border-radius: 20px;
+}
+
+
+
+.employee-table tbody::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+  margin-top: 21px;/* Rounded corners */
+  margin-bottom: 20px;
+}
+
+.employee-table tbody::-webkit-scrollbar-thumb {
+  background: #BBB0A4; /* Scrollbar color */
+  border-radius: 10px; /* Rounded corners */
+  width: 20px;
+}
+
+.form-label {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31.25px;
+  text-align: left;
+  
+   }
+
+/* Custom styles for form inputs */
+.modal-content input.form-control {
+  height: 50px; /* Increase the height */
+  font-size: 25px; /* Increase the font size */
+  padding: 10px; /* Increase padding */
+  border-radius: 8px; /* Make the corners rounded */
+  background-color: #f9f9f9; /* Change background color */
+  border: 1px solid #ced4da; /* Border color */
+  color: #333333; /* Text color */
+}
+
+/* Change input placeholder color */
+
+
+/* Style for the upload button */
+.modal-title {
+  margin-left: 0px;
+}
+
+/* Style for the 'Add Employee' button */
+
+@media (min-width: 1900px) {
+  .modal-dialog {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 810px;
+  }
+  .add-employee {
+   
+    margin-bottom: 76px;
+ 
+}
+.modal-body {
+  width: 577px;
+
+}
+
+
+}
+
+
+.ruted .modal-dialog {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 80vh;
+}

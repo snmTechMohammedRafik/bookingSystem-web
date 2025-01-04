@@ -1,0 +1,9 @@
+/* In Calendar.css */
+.current-time-line {
+  position: absolute;
+  width: 100%; /* Ensures it spans across all days */
+  height: 2px;
+  background-color: red; /* Set your preferred color for the line */
+  z-index: 1;
+  top: 0;
+}

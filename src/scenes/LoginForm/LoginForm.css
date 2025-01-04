@@ -1,0 +1,412 @@
+.main-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #b5a393;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.main-contianer{
+  background-color: #b5a393; 
+  height: 77vh;
+}
+div#root {
+  background: #b5a393;
+}
+
+
+.login-img {
+  width: 100px;
+  margin: 0 auto;
+  display: block;
+  padding-top: 27px;
+  padding-bottom: 20px;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  /* bottom: 0; */
+}
+/* Optional: Center within a flex container if needed */
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.step {
+  min-width: 589px;
+  /* height: 540px; */
+  top: 394px;
+  left: 593px;
+  gap: 0px;
+  border-radius: 25px;
+  /* opacity: 0px; */
+  background: #ffffff;
+  box-shadow: 0px 0px 50px 0px #00000040;
+}
+.mainform-row {
+  width: 73%;
+  margin-top: 28px;
+
+}
+
+@media (min-width: 1200px) {
+  .mainform-row {
+    width: 73%;
+    margin-top: 18px;
+  
+  }
+  .login-img {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 27px;
+    padding-bottom: 20px;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    /* bottom: 0; */
+  }
+  .main-login {
+    top: 65px;
+
+}
+  button.add-employee.aploy {
+    margin-bottom: 20px;
+}
+}
+/* .mainform-row {
+  padding-left: 116px;
+  padding-right: 117px;
+} */
+.mainform-row .label {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31.25px;
+  text-align: left;
+  color: #6f6f6f;
+  margin-bottom: 4px;
+}
+
+/* Steps styling */
+
+/* .step.active {
+  display: block;
+} */
+.step.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 100vh;
+}
+/* Heading style */
+/* .step h2 {
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45.57px;
+  text-align: center;
+  color: #6f6f6f;
+  align-items: center;
+  justify-content: center;
+  margin-top: 36px;
+  margin-bottom: 30px;
+} */
+.step h2 {
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 45.57px;
+  text-align: center;
+  color: #6f6f6f;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+/* Input styles */
+.step input[type="tel"],
+.step input[type="password"],
+.step input[type="text"] {
+  height: 69px;
+  top: 558px;
+  left: 709px;
+  font-size: "24px";
+  gap: 0px;
+  border-radius: 12px;
+  border: 3px solid #bbb0a4;
+  /* opacity: 0px; */
+  color: #888;
+}
+
+
+
+/* Button styling */
+.button {
+  background-color: #a2907c;
+  color: #fff;
+  padding: 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  /* margin-top: 20px; */
+  max-width: 336px;
+  display: block;
+  margin: 15px auto;
+  border-radius: 50px;
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Select items styling */
+/* .select-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 3px solid #bbb0a4;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+  max-width: 664px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 84px;
+  width: 86%;
+} */
+
+.select-item.selected {
+  background-color: #e0d7c5; /* Highlight color for selection */
+  border-color: #a2907c;
+}
+
+.select-item img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.select-item div {
+  text-align: left;
+}
+
+.select-item div small {
+  display: block;
+  color: #888;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 3px;
+}
+
+.main-login input-box {
+  font-size: "20px";
+  position: absolute;
+  top: 558px;
+  left: 709px;
+  gap: 0px;
+  border-radius: 12px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black; /* Change this to your preferred color */
+  /* opacity: 0; */
+}
+
+/* phone_number: '67867867',
+      password: '12345678', */
+
+.select-item div {
+  text-align: left;
+  color: black;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.step p {
+  color: #545454;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.step input[type="text"] {
+  /* letter-spacing: 10px; */
+  text-align: center;
+  font-size: "20px";
+  font-size: "20px";
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-button {
+  background: none;
+  border: none;
+}
+
+
+.mainform-row .step input[type="text"]{
+  letter-spacing: none;
+}
+
+
+
+
+.step.active.pading {
+  padding: 0px 44px;
+}
+
+@media (min-width: 1900px) {
+  .login-img {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 27px;
+    padding-bottom: 143px;
+  }
+  .mainform-row {
+    width: 70%;
+    margin-top: 28px;
+  }
+  .step {
+    min-width: 810px;
+    /* height: 540px; */
+    top: 394px;
+    left: 593px;
+    gap: 0px;
+    border-radius: 25px;
+    /* opacity: 0px; */
+    background: #ffffff;
+    box-shadow: 0px 0px 50px 0px #00000040;
+}
+
+.select-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 3px solid #bbb0a4;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+  max-width: 664px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 84px;
+  width: 86%;
+}
+.step.active.pading {
+  padding: 0px;
+}
+
+.step h2 {
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45.57px;
+  text-align: center;
+  color: #6f6f6f;
+  align-items: center;
+  justify-content: center;
+  margin-top: 49px;
+  margin-bottom: 35px;
+}
+.add-employee {
+  margin-bottom: 22px;
+}
+.step3 {
+  min-width: 95vh;
+  display: block;
+  overflow-y: auto;
+  /* width: 100% !important; */
+  max-height: 58vh;
+  margin-top: 35px;
+}
+button.add-employee.aploy {
+  margin-bottom: 20px;
+}
+}
+.step.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 74vh;
+}
+.step3 {
+  min-width: 71vh;
+  display: block;
+  overflow-y: auto;
+  /* width: 100% !important; */
+  max-height: 58vh;
+  margin-top: 35px;
+}
+
+/* Custom scrollbar styles for WebKit browsers (Chrome, Safari) */
+.step3::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+.step3::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; /* Adds shadow effect inside the track */
+  border-radius: 10px;
+}
+
+.step3::-webkit-scrollbar-thumb {
+  background: #BBB0A4; /* Scrollbar color */
+  border-radius: 10px; /* Rounded corners for thumb */
+}
+.select-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 3px solid #bbb0a4;
+  border-radius: 14px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+  /* max-width: 664px; */
+  /* margin: 11px 123px; */
+  margin-right: auto;
+  margin-left: auto;
+  /* height: 57px; */
+  width: 71%;
+}
+
+
+.mainform-row .step input[type="text"]{
+  letter-spacing: none;
+}
+
+
+.select-item.inactive {
+  opacity: 0.5; /* Make inactive items look faded */
+  pointer-events: none; /* Prevent any interaction */
+  background-color: #f0f0f0; /* Light gray background for inactive items */
+}
+
+.select-item.selected {
+  border: 2px solid #ffc0cb; /* Pink border for selected items */
+}
+
+.select-item img {
+  border-radius: 50%;
+}
+
+.dote {
+  font-weight: bold;
+}
+
+.dote small {
+  color: #666;
+}

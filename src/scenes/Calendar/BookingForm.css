@@ -1,0 +1,431 @@
+.time-slot-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+
+.time-slot-button {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  padding: 10px;
+}
+
+
+
+
+.time-slot-button.selected {
+  background-color: #dc3545;
+  color: white;
+  border: 1px solid #dc3545;
+}
+
+.time-slot-button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.time-slot-item {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  padding: 10px;
+}
+
+.booked {
+  background-attachment: red;
+}
+
+.time-slot-container {
+  max-height: 371px;
+  overflow-y: auto;
+}
+
+/* Scrollbar */
+.time-slot-container::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+.time-slot-container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.time-slot-container::-webkit-scrollbar-thumb {
+  background: #BBB0A4;
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+.time-slot-container::-webkit-scrollbar-thumb:hover {
+  background: #0000001A;
+}
+
+
+.time-slot-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.booking-calendar-container {
+  padding: 20px;
+  border: 2px solid #d4c8c0;
+  border-radius: 10px;
+  background-color: #f7f5f4;
+}
+
+.time-slot-container {
+  padding: 20px;
+  /* border: 2px solid #d4c8c0; */
+  border-radius: 10px;
+  background-color: #f7f5f400;
+  max-height: 300px;
+  overflow-y: auto;
+  /* Adds a scrollbar if content overflows */
+}
+
+.time-slot-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.time-slot {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(16.66% - 10px);
+  /* Six slots per row */
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 14px;
+  color: black;
+}
+
+.time-slot.disabled {
+  background-color: #ececec;
+  color: gray;
+  cursor: not-allowed;
+}
+
+.time-slot.selected {
+  background-color: #c74141;
+  color: white;
+}
+
+.time-slot:hover:not(.disabled):not(.selected) {
+  background-color: #f0e7e4;
+}
+
+
+input#formPhoneNumber,
+input#formCustomerName {
+  border: 3px solid #BBB0A4;
+
+  height: 54px;
+  top: 613px;
+  left: 781px;
+  gap: 0px;
+  border-radius: 12px;
+  /* opacity: 0px; */
+
+}
+
+
+.accordion-item {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.accordion-item.card {
+  border: 3px solid #BBB0A4;
+  border-radius: 20px;
+}
+
+.accordion-header {
+  background-color: #f7f7f7;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  color: #545454;
+}
+
+.accordion-body {
+  padding: 15px;
+  display: none;
+}
+.accordion-body.open {
+  display: block;
+  padding: 20px 12px;
+  max-height: 45vh;
+  overflow-y: auto;
+  margin: 0 !important;
+}
+
+/* Hide scrollbar, but keep content scrollable */
+.accordion-body.open::-webkit-scrollbar {
+  width: 0px; /* Hides the scrollbar */
+}
+.fade.mt-5.pt-5.toprt.modal.show .modal-content {
+  margin-top: 246px;
+  max-height: 75vh;
+  overflow-y: auto;
+}
+.fade.mt-5.pt-5.toprt.modal.show .modal-content::-webkit-scrollbar {
+  width: 0px; /* Hides the scrollbar */
+}
+
+.service-item {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.service-item:last-child {
+  border-bottom: none;
+}
+
+/* -----------------css */
+
+.modal-content {
+  margin-top: 0px !important;
+}
+
+/* .serviceGroupModal{
+  margin-top: 300px !important;
+} */
+
+.card-header:first-child {
+  border-radius: 20px !important;
+  border-top: 3px solid #BBB0A4;
+  border-bottom: none;
+}
+
+
+.service-item {
+  color: black;
+  box-shadow: 0px 0px 10px 0px #39393973;
+  padding: 20px;
+  border-radius: 16px !important;
+}
+
+.accordion-header {
+  background-color: white !important;
+}
+
+.card-header {
+  background-color: white !important;
+}
+
+
+.service-item strong {
+  font-size: 20px;
+}
+
+.calendar-container {
+  display: grid;
+  grid-template-columns: none !important;
+  gap: 1px;
+  background-color: #e0e0e0;
+}
+
+
+.react-calendar {
+  /* border-left: 8px solid black; */
+  border: none;
+}
+
+.react-calendar__tile--active {
+  background: #f5b591;
+  color: white;
+  border-radius: 50%;
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #f5b591;
+}
+
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: #e6e6e6;
+  border-radius: 50%;
+
+}
+
+.doted.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 5px solid #BBB0A4;
+  padding: 16px;
+  border-radius: 20px;
+}
+
+.Bookingcalendar-container {
+  border-right: 4px solid #0000001A !important;
+}
+
+.time-slot-item {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  width: 16% !important;
+  font-weight: 700;
+  padding: 5px !important;
+}
+
+
+.time-slot-container h5 {
+  color: black;
+  /* position: fixed; */
+  /* background: white; */
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  color: black;
+}
+
+.service-info{
+font-size: 20px;
+font-weight: 400;
+
+}
+
+.service-info img{
+  padding-right: 10px;
+}
+
+
+.bodyteg {
+  background: #F6F6F6;
+  border-radius: 20px;
+  color: black;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+@media (min-width: 1900px) {
+
+  .bodyteg-1.modal-body {
+    width: 747px;
+  }
+}
+
+.bodyteg-1.modal-body p {
+  padding: 20px;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #6F6F6F;
+  font-weight: 700;
+}
+
+.bodyteg-1.modal-body p strong {
+  color: #6F6F6F;
+  font-weight: 400;
+}
+
+
+.modal-title {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 45.57px;
+  text-align: left;
+  color: #6f6f6f;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 30px !important;
+}
+
+.prev-button{
+  background: none;
+  border: none;
+}
+
+
+.accordion-item:last-of-type {
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+  display: none;
+}
+
+/* .fade.modal.show {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+} */
+
+
+@media (min-width: 1900px) {
+  .fade.totelpot.modal.show .modal-dialog {
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 1284px ;
+  }
+  .fade.totelpot.modal.show .modal-body {
+    width: 1035px;
+  
+}
+
+
+.time-slot-item {
+  width: 13% !important;
+  font-size: 15px;
+  border-radius: 12px;
+}
+.fade.totelpot.modal.show .modal-body .react-calendar {
+  width: 100% !important;
+ 
+}
+.doted.row {
+
+  min-height: 528px;
+  /* border-radius: 20px; */
+}
+.react-calendar__month-view__weekdays__weekday {
+  color: black;
+}
+.react-calendar__tile {
+  max-width: 100%;
+  padding: 25px 11.6667px;
+
+  font-size: 21px;
+}
+button.react-calendar__navigation__label {
+  font-size: 25px;
+}
+
+.time-slot-item {
+  padding: 14px 15px !important;
+}
+
+
+}
+button.add-employee.employee-1 {
+  font-size: 19px;
+  margin-bottom: 71px;
+}
+
+
+.hour-label {
+font-size: 16px;
+font-weight: 700;
+line-height: 20.83px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #1F1F1F;
+
+
+}
